@@ -1,8 +1,24 @@
-import React from "react";
+import React, { useRef } from "react";
 
 const Header = () => {
+  const menuRef = useRef(null);
+
+  const handleClick = (e) => {
+    e.preventDefault();
+    const targetAttr = e.target.getAttribute("href");
+    const location = document.querySelector(targetAttr).offsetTop;
+
+    window.scrollTo({
+      top: location - 80,
+      left: 0,
+      behavior: "smooth",
+    });
+  };
+
+  const toggleMenu = () => menuRef.current.classList.toggle("show__menu");
+
   return (
-    <header className="w-full h-[80px] leading-[80px] flex items-center">
+    <header className="w-full h-[80px] leading-[80px] flex items-center fixed top-0 bg-white z-10">
       <div className="container">
         <div className="flex items-center justify-between">
           {/*=============== logo=============== */}
@@ -23,25 +39,41 @@ const Header = () => {
 
           {/*=============== logo-end===============*/}
           {/*=============== menu start===============*/}
-          <div className="menu">
+          <div className="menu" ref={menuRef} onClick={toggleMenu}>
             <ul className="flex items-center gap-10">
               <li>
-                <a className="text-smallTextColor font-[600]" href="#about">
+                <a
+                  onClick={handleClick}
+                  className="text-smallTextColor font-[600]"
+                  href="#about"
+                >
                   About
                 </a>
               </li>
               <li>
-                <a className="text-smallTextColor font-[600]" href="#services">
+                <a
+                  onClick={handleClick}
+                  className="text-smallTextColor font-[600]"
+                  href="#services"
+                >
                   Services
                 </a>
               </li>
               <li>
-                <a className="text-smallTextColor font-[600]" href="#portfolio">
+                <a
+                  onClick={handleClick}
+                  className="text-smallTextColor font-[600]"
+                  href="#portfolio"
+                >
                   Portfolio
                 </a>
               </li>
               <li>
-                <a className="text-smallTextColor font-[600]" href="#contact">
+                <a
+                  onClick={handleClick}
+                  className="text-smallTextColor font-[600]"
+                  href="#contact"
+                >
                   Contact
                 </a>
               </li>
@@ -52,11 +84,17 @@ const Header = () => {
           {/*=============== menu right===============*/}
           <div className="flex items-center gap-4">
             <button className="flex items-center gap-2 text-smallTexColor font-[600] border border-solid border-smallTextColor py-2 px-4 rounded-[8px] max-h-[40px] hover:bg-smallTextColor hover:text-white hover:font-[500] ease-in duration-300">
-              <i class="ri-send-plane-line"></i>Let's Talk
+              <i className="ri-send-plane-line"></i>{" "}
+              <a onClick={handleClick} href="#contact">
+                Let's Talk
+              </a>
             </button>
 
-            <span className="text-2xl text-smallTextColor md:hidden cursor-pointer">
-              <i class="ri-menu-line"></i>
+            <span
+              onClick={toggleMenu}
+              className="text-2xl text-smallTextColor md:hidden cursor-pointer"
+            >
+              <i className="ri-menu-line"></i>
             </span>
           </div>
           {/*=============== menu end===============*/}
