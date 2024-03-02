@@ -41,7 +41,7 @@ const Footer = () => {
               <span className="w-[35px] h-[35px] bg-[#2b2d33] p-1 rounded-[50px] cursor-pointer text-center">
                 <a
                   href="https://github.com/MithuChandran"
-                  className="text-gray-300 font-[500] text-[18px]"
+                  className="text-gray-300 font-[500] text-[18px] hover:text-primaryColor"
                 >
                   <i class="ri-github-fill"></i>
                 </a>
@@ -49,7 +49,7 @@ const Footer = () => {
               <span className="w-[35px] h-[35px] bg-[#2b2d33] p-1 rounded-[50px] cursor-pointer text-center">
                 <a
                   href="https://www.linkedin.com/in/mithuna-chandrasekaran/"
-                  className="text-gray-300 font-[500] text-[18px]"
+                  className="text-gray-300 font-[500] text-[18px] hover:text-primaryColor"
                 >
                   <i class="ri-linkedin-fill"></i>
                 </a>
@@ -57,7 +57,7 @@ const Footer = () => {
               <span className="w-[35px] h-[35px] bg-[#2b2d33] p-1 rounded-[50px] cursor-pointer text-center">
                 <a
                   href="https://www.facebook.com/profile.php?id=61554543767270&mibextid=ZbWKwL"
-                  className="text-gray-300 font-[500] text-[18px]"
+                  className="text-gray-300 font-[500] text-[18px] hover:text-primaryColor"
                 >
                   <i class="ri-facebook-line"></i>
                 </a>
@@ -65,7 +65,7 @@ const Footer = () => {
               <span className="w-[35px] h-[35px] bg-[#2b2d33] p-1 rounded-[50px] cursor-pointer text-center">
                 <a
                   href="https://www.instagram.com/mithu_chandran?igsh=dG9lbGE4emYyc3p5"
-                  className="text-gray-300 font-[500] text-[18px]"
+                  className="text-gray-300 font-[500] text-[18px] hover:text-primaryColor"
                 >
                   <i class="ri-instagram-line"></i>
                 </a>
@@ -73,7 +73,7 @@ const Footer = () => {
               <span className="w-[35px] h-[35px] bg-[#2b2d33] p-1 rounded-[50px] cursor-pointer text-center">
                 <a
                   href="https://wa.me/qr/7AHLIM67FDP7F1"
-                  className="text-gray-300 font-[500] text-[18px]"
+                  className="text-gray-300 font-[500] text-[18px] hover:text-primaryColor"
                 >
                   <i class="ri-whatsapp-line"></i>
                 </a>
@@ -86,7 +86,7 @@ const Footer = () => {
             <li>
               <a
                 onClick={handleClick}
-                className="text-gray-400 font-[600]"
+                className="text-gray-400 font-[650] hover:text-primaryColor"
                 href="#about"
               >
                 About
@@ -95,7 +95,7 @@ const Footer = () => {
             <li>
               <a
                 onClick={handleClick}
-                className="text-gray-400 font-[600]"
+                className="text-gray-400 font-[650] hover:text-primaryColor"
                 href="#services"
               >
                 Services
@@ -104,7 +104,16 @@ const Footer = () => {
             <li>
               <a
                 onClick={handleClick}
-                className="text-gray-400 font-[600]"
+                className="text-gray-400 font-[650] hover:text-primaryColor"
+                href="#contact"
+              >
+                Skills
+              </a>
+            </li>
+            <li>
+              <a
+                onClick={handleClick}
+                className="text-gray-400 font-[650] hover:text-primaryColor"
                 href="#portfolio"
               >
                 Portfolio
@@ -113,7 +122,7 @@ const Footer = () => {
             <li>
               <a
                 onClick={handleClick}
-                className="text-gray-400 font-[600]"
+                className="text-gray-400 font-[650] hover:text-primaryColor"
                 href="#contact"
               >
                 Contact
