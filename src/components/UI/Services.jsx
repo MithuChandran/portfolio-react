@@ -35,7 +35,7 @@ const Services = () => {
                       <div
                         data-aos="fade-right"
                         data-aos-duration="1200"
-                        className="bg-white p-4 rounded shadow group hover:bg-primaryColor cursor-pointer ease-in duration-150"
+                        className="bg-white p-4 rounded shadow-lg shadow-primaryColor group hover:bg-primaryColor cursor-pointer ease-in duration-150"
                       >
                         <h3 className="text-primaryColor font-[700] mb-3 group-hover:text-white group-hover:font-[600] text-xl">
                           Frontend Development
@@ -67,7 +67,7 @@ const Services = () => {
                         data-aos="fade-left"
                         data-aos-delay="50"
                         data-aos-duration="1300"
-                        className="bg-white p-4 rounded shadow group hover:bg-primaryColor cursor-pointer ease-in duration-150"
+                        className="bg-white p-4 rounded shadow-lg shadow-primaryColor group hover:bg-primaryColor cursor-pointer ease-in duration-150"
                       >
                         <h3 className="text-primaryColor font-[700] mb-3 group-hover:text-white group-hover:font-[600] text-xl">
                           Data Analysis
@@ -98,7 +98,7 @@ const Services = () => {
                       <div
                         data-aos="fade-right"
                         data-aos-duration="1400"
-                        className="bg-white p-4 rounded shadow group hover:bg-primaryColor cursor-pointer ease-in duration-150"
+                        className="bg-white p-4 rounded shadow-lg shadow-primaryColor group hover:bg-primaryColor cursor-pointer ease-in duration-150"
                       >
                         <h3 className="text-primaryColor font-[700] mb-3 group-hover:text-white group-hover:font-[600] text-xl">
                           UI/UX Design
@@ -130,7 +130,7 @@ const Services = () => {
                         data-aos="fade-left"
                         data-aos-delay="50"
                         data-aos-duration="1500"
-                        className="bg-white p-4 rounded shadow group hover:bg-primaryColor cursor-pointer ease-in duration-150"
+                        className="bg-white p-4 rounded shadow-lg shadow-primaryColor group hover:bg-primaryColor cursor-pointer ease-in duration-150"
                       >
                         <h3 className="text-primaryColor font-[700] mb-3 group-hover:text-white group-hover:font-[600] text-xl">
                           Web Development
