@@ -3,6 +3,17 @@ import heroImg from "../../assets/images/hero.svg";
 import CountUp from "react-countup";
 
 const Hero = () => {
+  const handleClick = (e) => {
+    e.preventDefault();
+    const targetAttr = e.target.getAttribute("href");
+    const location = document.querySelector(targetAttr).offsetTop;
+    window.scrollTo({
+      top: location - 60,
+      left: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <section className="pt-16" id="about">
       <div className="container pt-14">
@@ -36,6 +47,7 @@ const Hero = () => {
                 </button>
               </a>
               <a
+                onClick={handleClick}
                 href="#portfolio"
                 className="text-smallTextColor font-[600] text-[16px] border-b border-solid border-smallTextColor"
               >
