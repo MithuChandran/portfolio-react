@@ -4,7 +4,7 @@ import CountUp from "react-countup";
 
 const Hero = () => {
   return (
-    <section className="pt-0" id="about">
+    <section className="pt-16" id="about">
       <div className="container pt-14">
         <div className="md:flex items-center justify-between sm:flex-col md:flex-row">
           {/* =============== hero left content===============*/}
@@ -32,7 +32,7 @@ const Hero = () => {
             >
               <a href="#contact">
                 <button className="bg-primaryColor text-white font-[500] flex items-center gap-2 hover:bg-smallTextColor ease-in duration-300 py-2 px-4 rounded-[8px]">
-                  <i class="ri-mail-line"></i> Hire me
+                  <i class="ri-mail-line"></i> Download CV
                 </button>
               </a>
               <a
@@ -64,7 +64,7 @@ const Hero = () => {
 
               <span>
                 <a
-                  href="#youtube"
+                  href="#github"
                   className="text-smallTextColor text-[25px] font-[700]"
                 >
                   <i class="ri-github-fill"></i>
@@ -72,7 +72,7 @@ const Hero = () => {
               </span>
               <span>
                 <a
-                  href="#youtube"
+                  href="#linkedin"
                   className="text-smallTextColor text-[25px] font-[700]"
                 >
                   <i class="ri-linkedin-fill"></i>
@@ -80,7 +80,7 @@ const Hero = () => {
               </span>
               <span>
                 <a
-                  href="#youtube"
+                  href="#facebook"
                   className="text-smallTextColor text-[25px] font-[700]"
                 >
                   <i class="ri-facebook-line"></i>
@@ -88,10 +88,18 @@ const Hero = () => {
               </span>
               <span>
                 <a
-                  href="#youtube"
+                  href="#instagram"
                   className="text-smallTextColor text-[25px] font-[700]"
                 >
                   <i class="ri-instagram-line"></i>
+                </a>
+              </span>
+              <span>
+                <a
+                  href="#whatsapp"
+                  className="text-smallTextColor text-[25px] font-[700]"
+                >
+                  <i class="ri-whatsapp-line"></i>
                 </a>
               </span>
             </div>
