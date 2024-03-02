@@ -46,7 +46,7 @@ const Hero = () => {
 
   return (
     <section className="pt-16" id="about">
-      <div className="container pt-14">
+      <div className="container pt-16">
         <div className="md:flex items-center justify-between sm:flex-col md:flex-row">
           <div className="w-full md:basis-1/2">
             <h5
@@ -83,7 +83,7 @@ const Hero = () => {
               <a
                 onClick={handleClick}
                 href="#portfolio"
-                className="text-smallTextColor font-semibold text-base border-b border-solid border-smallTextColor"
+                className="text-smallTextColor font-semibold text-base border-b border-solid border-smallTextColor hover:text-primaryColor"
               >
                 See portfolio
               </a>
@@ -110,7 +110,7 @@ const Hero = () => {
               <span>
                 <a
                   href="https://github.com/MithuChandran"
-                  className="text-smallTextColor text-2xl font-semibold"
+                  className="text-smallTextColor text-2xl font-semibold hover:text-primaryColor"
                 >
                   <i className="ri-github-fill"></i>
                 </a>
@@ -118,7 +118,7 @@ const Hero = () => {
               <span>
                 <a
                   href="https://www.linkedin.com/in/mithuna-chandrasekaran/"
-                  className="text-smallTextColor text-2xl font-semibold"
+                  className="text-smallTextColor text-2xl font-semibold hover:text-primaryColor"
                 >
                   <i className="ri-linkedin-fill"></i>
                 </a>
@@ -126,7 +126,7 @@ const Hero = () => {
               <span>
                 <a
                   href="https://www.facebook.com/profile.php?id=61554543767270&mibextid=ZbWKwL"
-                  className="text-smallTextColor text-2xl font-semibold"
+                  className="text-smallTextColor text-2xl font-semibold hover:text-primaryColor"
                 >
                   <i className="ri-facebook-line"></i>
                 </a>
@@ -134,7 +134,7 @@ const Hero = () => {
               <span>
                 <a
                   href="https://www.instagram.com/mithu_chandran?igsh=dG9lbGE4emYyc3p5"
-                  className="text-smallTextColor text-2xl font-semibold"
+                  className="text-smallTextColor text-2xl font-semibold hover:text-primaryColor"
                 >
                   <i className="ri-instagram-line"></i>
                 </a>
@@ -142,7 +142,7 @@ const Hero = () => {
               <span>
                 <a
                   href=" https://wa.me/qr/7AHLIM67FDP7F1"
-                  className="text-smallTextColor text-2xl font-semibold"
+                  className="text-smallTextColor text-2xl font-semibold hover:text-primaryColor"
                 >
                   <i className="ri-whatsapp-line"></i>
                 </a>
