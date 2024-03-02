@@ -9,7 +9,7 @@ const Header = () => {
     const location = document.querySelector(targetAttr).offsetTop;
 
     window.scrollTo({
-      top: location - 80,
+      top: location - 60,
       left: 0,
       behavior: "smooth",
     });
