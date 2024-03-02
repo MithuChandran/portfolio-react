@@ -64,7 +64,7 @@ const Hero = () => {
 
               <span>
                 <a
-                  href="#github"
+                  href="https://github.com/MithuChandran"
                   className="text-smallTextColor text-[25px] font-[700]"
                 >
                   <i class="ri-github-fill"></i>
@@ -72,7 +72,7 @@ const Hero = () => {
               </span>
               <span>
                 <a
-                  href="#linkedin"
+                  href="https://www.linkedin.com/in/mithuna-chandrasekaran/"
                   className="text-smallTextColor text-[25px] font-[700]"
                 >
                   <i class="ri-linkedin-fill"></i>
@@ -80,7 +80,7 @@ const Hero = () => {
               </span>
               <span>
                 <a
-                  href="#facebook"
+                  href="https://www.facebook.com/profile.php?id=61554543767270&mibextid=ZbWKwL"
                   className="text-smallTextColor text-[25px] font-[700]"
                 >
                   <i class="ri-facebook-line"></i>
@@ -88,7 +88,7 @@ const Hero = () => {
               </span>
               <span>
                 <a
-                  href="#instagram"
+                  href="https://www.instagram.com/mithu_chandran?igsh=dG9lbGE4emYyc3p5"
                   className="text-smallTextColor text-[25px] font-[700]"
                 >
                   <i class="ri-instagram-line"></i>
@@ -96,7 +96,7 @@ const Hero = () => {
               </span>
               <span>
                 <a
-                  href="#whatsapp"
+                  href=" https://wa.me/qr/7AHLIM67FDP7F1"
                   className="text-smallTextColor text-[25px] font-[700]"
                 >
                   <i class="ri-whatsapp-line"></i>
