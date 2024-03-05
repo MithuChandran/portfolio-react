@@ -64,7 +64,7 @@ const Footer = () => {
               </span>
               <span className="w-[35px] h-[35px] bg-[#2b2d33] p-1 rounded-[50px] cursor-pointer text-center">
                 <a
-                  href="https://www.instagram.com/mithu_chandran?igsh=dG9lbGE4emYyc3p5"
+                  href="https://www.instagram.com/mithu_chandran"
                   className="text-gray-300 font-[500] text-[18px] hover:text-primaryColor"
                 >
                   <i class="ri-instagram-line"></i>
