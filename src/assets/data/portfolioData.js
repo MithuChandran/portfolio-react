@@ -68,74 +68,29 @@ const portfolios = [
   {
     id: "07",
     //imgUrl: portfolioImg07,
-    title: "Appointment Booking Website",
+    title: "House Price Prediction Using Linear Regression",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "#",
+    technologies: ["Python", "Jupytor Notebook"],
+    siteUrl: "https://github.com/MithuChandran/house_price_prediction.git",
   },
   {
     id: "08",
     //imgUrl: portfolioImg01,
-    title: "Finance Technology Website",
+    title: "Exam Marks Prediction Using Linear Regression",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "#",
+    technologies: ["Python", "Jupytor Notebook"],
+    siteUrl: "https://github.com/MithuChandran/exam_marks_prediction.git",
   },
   {
     id: "09",
     //imgUrl: portfolioImg02,
-    title: "Video Conference Website",
+    title: "Vehicle Detection Using Deep Learning",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "#",
-  },
-  {
-    id: "10",
-    //imgUrl: portfolioImg03,
-    title: "File Sharing Website",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "#",
-  },
-  {
-    id: "11",
-    //imgUrl: portfolioImg04,
-    title: "Landing Page",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "#",
-  },
-  {
-    id: "12",
-    //imgUrl: portfolioImg05,
-    title: "Landing Page",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "#",
-  },
-  {
-    id: "13",
-    //imgUrl: portfolioImg06,
-    title: "Online Therapy Website",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "#",
-  },
-  {
-    id: "14",
-    //imgUrl: portfolioImg07,
-    title: "Appointment Booking Website",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "#",
+    technologies: ["Python", "Jupytor Notebook"],
+    siteUrl: "https://github.com/MithuChandran/vehicile_detection.git",
   },
 ];
 
