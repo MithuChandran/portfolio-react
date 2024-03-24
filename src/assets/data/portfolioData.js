@@ -4,7 +4,9 @@ import theatre from "../images/theatre.jpg";
 import acedemic from "../images/acedemic.jpg";
 import calculator from "../images/calculator.jpg";
 import sales from "../images/sales.jpg";
-//import portfolioImg07 from "../images/portfolio-07.jpg";
+import home from "../images/home.jpg";
+import Vehicle from "../images/vehicle.jpg";
+import exam from "../images/exam.jpg";
 
 const portfolios = [
   {
@@ -67,7 +69,8 @@ const portfolios = [
   },
   {
     id: "07",
-    //imgUrl: portfolioImg07,
+    imgUrl: home,
+    category: "Machine Learning",
     title: "House Price Prediction Using Linear Regression",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
@@ -76,7 +79,8 @@ const portfolios = [
   },
   {
     id: "08",
-    //imgUrl: portfolioImg01,
+    imgUrl: exam,
+    category: "Machine Learning",
     title: "Exam Marks Prediction Using Linear Regression",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
@@ -85,7 +89,8 @@ const portfolios = [
   },
   {
     id: "09",
-    //imgUrl: portfolioImg02,
+    imgUrl: Vehicle,
+    category: "Machine Learning",
     title: "Vehicle Detection Using Deep Learning",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
