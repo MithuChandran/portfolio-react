@@ -18,8 +18,8 @@ const Footer = () => {
       <div className="container">
         <div className="sm:flex items-center justify-between md:gap-8">
           <div className="w-full sm:w-1/2">
-            <h2 className="text-[26px] leading-10 text-white font-[600] mb-8 md:text-[2rem]">
-              Do you want to make projects with me?
+            <h2 className="text-[26px] leading-10 text-white font-[700] mb-8 md:text-[2rem]">
+              Would You Be Interested In Hire Me For An Internship?
             </h2>
             <a href="https://drive.google.com/file/d/1zxyM_6L6E6sJFc_M6VSmQORSs5YA71A5/view?usp=sharing">
               <button className="bg-primaryColor text-white font-[500] flex items-center gap-2 hover:bg-smallTextColor ease-in duration-300 py-3 px-4 rounded-[8px]">
@@ -34,6 +34,13 @@ const Footer = () => {
               real-world projects. Seeking an opportunity to contribute to a
               team building innovative and user-friendly applications.
             </p>
+            <span className="text-base font-semibold hover:text-primaryColor text-white">
+              Mail Me:
+              <a href="mithunachandrasekaran@gmail.com">
+                {" "}
+                mithunachandrasekaran@gmail.com
+              </a>
+            </span>
             <div className="flex items-center gap-4 flex-wrap md:gap-8 mt-10">
               <span className="text-gray-300 font-[600] text-[15px]">
                 Follow Me:
