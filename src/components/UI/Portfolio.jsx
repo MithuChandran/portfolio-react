@@ -22,14 +22,10 @@ const Portfolio = () => {
     if (selectTab === "all") {
       setPortfolios(data);
     }
-    if (selectTab === "web-design") {
+    if (selectTab === "Machine Learning") {
       const filteredData = data.filter(
-        (item) => item.category === "Web Design"
+        (item) => item.category === "Machine Learning"
       );
-      setPortfolios(filteredData);
-    }
-    if (selectTab === "ux-design") {
-      const filteredData = data.filter((item) => item.category === "Ux");
       setPortfolios(filteredData);
     }
   }, [selectTab]);
@@ -52,16 +48,10 @@ const Portfolio = () => {
               All
             </button>
             <button
-              onClick={() => setSelectTab("web-design")}
+              onClick={() => setSelectTab("Machine Learning")}
               className="text-smallTextColor border border-solid border-smallTextColor py-2 px-4 rounded-[8px]"
             >
-              Web Design
-            </button>
-            <button
-              onClick={() => setSelectTab("ux-design")}
-              className="text-smallTextColor border border-solid border-smallTextColor py-2 px-4 rounded-[8px]"
-            >
-              UX Design
+              Machine Learning
             </button>
           </div>
         </div>
