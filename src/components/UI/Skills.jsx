@@ -27,15 +27,18 @@ const Skills = () => {
   };
 
   return (
-    <section id="skills" className="pb-3  pt-0">
+    <section id="skills" className="pb-3  pt-5">
       <div className="container">
         <h2 className="text-headingColor font-[700] text-[2.5rem] text-center">
           Skills
         </h2>
-        <p className="lg:max-w-[600px] lg:mx-auto text-headingColor font-[500] text-[16px] leading-6">
-          Experience with HTML, CSS, and JavaScript. Also, I have knowledge of
-          Figma and Adobe XD. Proven ability to learn new technologies quickly
-          and apply them to real-world projects.
+        <p className="lg:max-w-[600px] text-center lg:mx-auto text-headingColor font-[500] text-[16px] leading-6">
+          Passionate about front-end development, web design, and machine
+          learning. Experience with Java, Python, HTML, and CSS. Also, I have
+          knowledge of using Jupyter Notebook. Proven ability to learn new
+          technologies quickly and apply them to real-world projects. Seeking an
+          opportunity to contribute to a team building innovative and
+          user-friendly applications.
         </p>
       </div>
       <div className="flex justify-center mb-45">
