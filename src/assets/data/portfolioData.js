@@ -1,77 +1,73 @@
-import portfolioImg01 from "../images/portfolio-01.jpg";
-import portfolioImg02 from "../images/portfolio-02.jpg";
-import portfolioImg03 from "../images/portfolio-03.jpg";
-import portfolioImg04 from "../images/portfolio-04.jpg";
-import portfolioImg05 from "../images/portfolio-05.jpg";
-import portfolioImg06 from "../images/portfolio-06.jpg";
-import portfolioImg07 from "../images/portfolio-07.jpg";
+import travel from "../images/travel.jpg";
+import onlineShopping from "../images/onlineShopping.jpg";
+import theatre from "../images/theatre.jpg";
+import acedemic from "../images/acedemic.jpg";
+import calculator from "../images/calculator.jpg";
+import sales from "../images/sales.jpg";
+//import portfolioImg07 from "../images/portfolio-07.jpg";
 
 const portfolios = [
   {
     id: "01",
-    imgUrl: portfolioImg01,
-    category: "Web Design",
-    title: "Finance Technology Website",
+    imgUrl: travel,
+    title: "TripBoss - Travel Website",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "#",
+      "A travel website built using HTML, CSS, and JavaScript. It provides a user interface for users to browse and book travel destinations, view travel packages, and explore various travel options.",
+    technologies: ["HTML", "CSS", "JavaScript"],
+    siteUrl: "https://github.com/MithuChandran/travel_website.git",
   },
   {
     id: "02",
-    imgUrl: portfolioImg04,
-    category: "Ux",
-    title: "Video Conference Website",
+    imgUrl: onlineShopping,
+    title: "Online Shopping System",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "#",
+      "An Online shopping system that utilizes Java OOP concepts and GUI implemented using Swing. It provides functionality for users to browse and purchase products, manage their shopping cart, and process payments.",
+    technologies: ["Java", "Swing"],
+    siteUrl: "https://github.com/MithuChandran/online_shopping_system.git",
   },
   {
     id: "03",
-    imgUrl: portfolioImg02,
-    category: "Ux",
-    title: "Multimedia Sharing Website",
+    imgUrl: theatre,
+    title: "Theatre Booking Project",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "#",
+      "A software application developed using Java for managing a theatre. It provides features for booking tickets, managing shows, and tracking seat availability. The application allows users to view show schedules, select seats, and make online payments. It includes an admin panel for managing shows, seats, and user bookings.",
+    technologies: ["Java"],
+    siteUrl: "https://github.com/MithuChandran/theatre_booking_java.git",
   },
   {
     id: "04",
-    imgUrl: portfolioImg05,
-    category: "Web Design",
-    title: "Landing Page",
+    imgUrl: acedemic,
+    title: "Academic Progression Predictor",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "#",
+      "A Python Academic Progression Predictor program, allowing university staff to input students' credit details for predicting progression outcomes. The program validates inputs, generates histograms, and offers extensions for data storage, facilitating accurate analysis of student progression.",
+    technologies: ["Python"],
+    siteUrl:
+      "https://github.com/MithuChandran/academic_progression_predictor.git",
   },
   {
     id: "05",
-    imgUrl: portfolioImg03,
-    category: "Web Design",
-    title: "Landing Page",
+    imgUrl: calculator,
+    title: "Simple Calculator Program",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "#",
+      "A Python program for a calculator with a history feature. The calculator supports basic arithmetic operations such as addition, subtraction, multiplication, and division, as well as exponentiation. It ensures input validation to handle errors gracefully and provides a user-friendly interface with prompts for input.",
+    technologies: ["Python"],
+    siteUrl: "https://github.com/MithuChandran/calculator_python.git",
   },
 
   {
     id: "06",
-    imgUrl: portfolioImg06,
-    category: "Ux",
-    title: "Online Therapy Website",
+    imgUrl: sales,
+    category: "Machine Learning",
+    title: "Advertisement Sales Prediction using Logistic Regression",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "#",
+      "A predictive model built using logistic regression to forecast advertisement sales based on existing customer data. Leveraging the power of machine learning, this project aims to assist businesses in optimizing their advertising strategies by identifying potential customers likely to make a purchase.",
+    technologies: ["Python", "Jupytor Notebook"],
+    siteUrl:
+      "https://github.com/MithuChandran/advertisement_sale_prediction.git",
   },
   {
     id: "07",
-    imgUrl: portfolioImg07,
-    category: "Web Design",
+    //imgUrl: portfolioImg07,
     title: "Appointment Booking Website",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
@@ -80,8 +76,7 @@ const portfolios = [
   },
   {
     id: "08",
-    imgUrl: portfolioImg01,
-    category: "Web Design",
+    //imgUrl: portfolioImg01,
     title: "Finance Technology Website",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
@@ -90,8 +85,7 @@ const portfolios = [
   },
   {
     id: "09",
-    imgUrl: portfolioImg02,
-    category: "Ux",
+    //imgUrl: portfolioImg02,
     title: "Video Conference Website",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
@@ -100,8 +94,7 @@ const portfolios = [
   },
   {
     id: "10",
-    imgUrl: portfolioImg03,
-    category: "Ux",
+    //imgUrl: portfolioImg03,
     title: "File Sharing Website",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
@@ -110,8 +103,7 @@ const portfolios = [
   },
   {
     id: "11",
-    imgUrl: portfolioImg04,
-    category: "Web Design",
+    //imgUrl: portfolioImg04,
     title: "Landing Page",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
@@ -120,8 +112,7 @@ const portfolios = [
   },
   {
     id: "12",
-    imgUrl: portfolioImg05,
-    category: "Web Design",
+    //imgUrl: portfolioImg05,
     title: "Landing Page",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
@@ -130,8 +121,7 @@ const portfolios = [
   },
   {
     id: "13",
-    imgUrl: portfolioImg06,
-    category: "Web Design",
+    //imgUrl: portfolioImg06,
     title: "Online Therapy Website",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
@@ -140,8 +130,7 @@ const portfolios = [
   },
   {
     id: "14",
-    imgUrl: portfolioImg07,
-    category: "ux",
+    //imgUrl: portfolioImg07,
     title: "Appointment Booking Website",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
