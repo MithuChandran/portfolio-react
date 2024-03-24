@@ -91,11 +91,12 @@ const Hero = () => {
               <span>
                 <i className="ri-apps-2-line"></i>
               </span>
-              passionate about Web design. Experience with HTML, CSS, and
-              JavaScript. Also, I have knowledge of Figma and Adobe XD. Proven
-              ability to learn new technologies quickly and apply them to
-              real-world projects. Seeking an opportunity to contribute to a
-              team building innovative and user-friendly applications.
+              passionate about front-end development, web design, and machine
+              learning. Experience with Java, Python, HTML, and CSS. Also, I
+              have knowledge of using Jupyter Notebook. Proven ability to learn
+              new technologies quickly and apply them to real-world projects.
+              Seeking an opportunity to contribute to a team building innovative
+              and user-friendly applications.
             </p>
             <div className="flex items-center gap-9 mt-14">
               <span className="text-smallTextColor text-base font-semibold">
@@ -143,6 +144,13 @@ const Hero = () => {
                 </a>
               </span>
             </div>
+            <span className="text-base font-semibold hover:text-primaryColor">
+              Mail Me:
+              <a href="mithunachandrasekaran@gmail.com">
+                {" "}
+                mithunachandrasekaran@gmail.com
+              </a>
+            </span>
           </div>
           <div className="basis-1/3 mt-10 sm:mt-0">
             <figure>
