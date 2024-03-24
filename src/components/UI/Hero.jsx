@@ -4,12 +4,7 @@ import CountUp from "react-countup";
 
 const Hero = () => {
   const [typedText, setTypedText] = useState("");
-  const typedStrings = [
-    "Web Developer",
-    "Frontend Developer",
-    "Data Analyst",
-    "Freelancer",
-  ];
+  const typedStrings = ["Undergraduate Student"];
   const [index, setIndex] = useState(0);
   const [charIndex, setCharIndex] = useState(0);
 
@@ -52,7 +47,7 @@ const Hero = () => {
             <h5
               data-aos="fade-right"
               data-aos-duration="1500"
-              className="text-headingColor font-semibold text-sm"
+              className="text-headingColor font-semibold text-xl "
             >
               Hello, Welcome
             </h5>
@@ -61,7 +56,7 @@ const Hero = () => {
               data-aos-duration="1500"
               className="text-headingColor text-2xl sm:text-4xl leading-9 sm:leading-12 mt-5 relative"
             >
-              <h1 className="font-extrabold">
+              <h1 className="font-extrabold mb-1">
                 I'm Mithuna Chandrasekaran <br />
               </h1>
               <span>
@@ -157,10 +152,10 @@ const Hero = () => {
           <div className="md:basis-1/5 flex justify-between text-center mt-10 flex-wrap gap-3 md:mt-0 md:flex-col md:justify-end md:text-end">
             <div className="mb-10">
               <h2 className="text-headingColor font-semibold text-2xl">
-                <CountUp start={0} end={100} duration={2} suffix="%" />
+                1st Place
               </h2>
               <h4 className="text-headingColor font-semibold text-base">
-                Leadership
+                Problem Solving International Hackathon 24
               </h4>
             </div>
             <div className="mb-10">
@@ -168,12 +163,12 @@ const Hero = () => {
                 <CountUp start={0} end={26} duration={2} suffix="+" />
               </h2>
               <h4 className="text-headingColor font-semibold text-base">
-                Projects/Courses Completed
+                Courses Completed
               </h4>
             </div>
             <div className="mb-10">
               <h2 className="text-headingColor font-semibold text-2xl">
-                <CountUp start={0} end={15} duration={3} suffix="+" />
+                <CountUp start={0} end={18} duration={3} suffix="+" />
               </h2>
               <h4 className="text-headingColor font-semibold text-base">
                 Attended Workshops
@@ -181,10 +176,10 @@ const Hero = () => {
             </div>
             <div className="mb-10">
               <h2 className="text-headingColor font-semibold text-2xl">
-                <CountUp start={0} end={6} duration={3} suffix="+" />
+                <CountUp start={0} end={10} duration={3} suffix="+" />
               </h2>
               <h4 className="text-headingColor font-semibold text-base">
-                Participated Competitions
+                Projects Completed
               </h4>
             </div>
           </div>
