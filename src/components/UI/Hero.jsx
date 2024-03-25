@@ -70,7 +70,7 @@ const Hero = () => {
               data-aos-delay="200"
               className="flex items-center gap-6 mt-7"
             >
-              <a href="https://drive.google.com/file/d/1zxyM_6L6E6sJFc_M6VSmQORSs5YA71A5/view?usp=sharing">
+              <a href="https://drive.google.com/file/d/1LNh6iiVdmZIUzeFyuUICLTfQhKHQNoJu/view?usp=sharing">
                 <button className="bg-primaryColor text-white font-semibold flex items-center gap-2 hover:bg-smallTextColor ease-in duration-300 py-2 px-4 rounded-lg">
                   <i className="ri-mail-line"></i> Download CV
                 </button>

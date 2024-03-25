@@ -21,7 +21,7 @@ const Footer = () => {
             <h2 className="text-[26px] leading-10 text-white font-[700] mb-8 md:text-[2rem]">
               Would You Be Interested In Hire Me For An Internship?
             </h2>
-            <a href="https://drive.google.com/file/d/1zxyM_6L6E6sJFc_M6VSmQORSs5YA71A5/view?usp=sharing">
+            <a href="https://drive.google.com/file/d/1LNh6iiVdmZIUzeFyuUICLTfQhKHQNoJu/view?usp=sharing">
               <button className="bg-primaryColor text-white font-[500] flex items-center gap-2 hover:bg-smallTextColor ease-in duration-300 py-3 px-4 rounded-[8px]">
                 <i class="ri-mail-line"></i> Download CV
               </button>
